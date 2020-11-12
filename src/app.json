@@ -1,0 +1,32 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "config": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/index",
+      "config": {
+        "navigationBarTitleText": "my-project"
+      }
+    },
+    "pages/counter",
+    {
+      "path": "packageA/logs",
+      "subPackage": true
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-tag": "/vant-weapp/dist/tag/index",
+    "van-field": "/vant-weapp/dist/field/index",
+    "van-button" : "/vant-weapp/dist/button/index"
+  }
+}
